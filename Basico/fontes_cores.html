@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes e cores</title>
+    <style type="text/css">
+        .formatacao{
+            color:#0EB426;
+            font-size:18px;
+            font-family: 'Times New Roman', Times, serif;
+            background: yellowgreen;
+
+        }
+
+        /*
+        px - tamanho fixo
+        % - tamanho relativo
+        em - tamanho relativo ao container pai
+        */
+
+        .texto{
+            font-size: 1em;
+        }
+
+        body{
+            font-size: 20px;
+        }
+
+        div{
+            font-size: 30px;
+        }
+
+        .negrito{
+            font-weight: 900;
+        }
+
+        .italico{
+            font-style: italic;
+        }
+
+        .decoration1{
+            text-decoration: underline;
+
+        }
+        .decoration2{
+            text-decoration:overline;
+
+        }
+        .decoration3{
+            text-decoration:line-through;
+
+        }
+        .formatacao_completa{
+            font: bold 40px "lucida sans unicode";
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>
+        Estilo CSS (cascating style sheets)
+    </h1>
+    <p class="formatacao">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    
+    <div>
+        <p class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    </div>
+    
+    <p class="negrito"> Negrito - Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    <p class="italico"> Italico - Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    <p class="decoration1">Sublinhado -  Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p class="decoration2">Linha Superior -  Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p class="decoration3">Taxado -  Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p class="formatacao_completa">Formatação completa -  Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    
+
+
+</body>
+</html>
