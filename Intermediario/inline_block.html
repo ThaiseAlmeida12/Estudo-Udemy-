@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Elementos inline, block e inline-block</title>
+		<meta charset="utf-8">
+		
+		<style type="text/css">
+
+			.borda{
+				border: 1px solid red;
+				display: inline-block; 
+			}
+
+		</style>
+		
+	</head>
+	<body>
+
+        <!--
+            * Inline = span/ p/  são elementos inline, ou seja fica um do lado do outro na mesma linha
+            * Block = div h1 ... são elemento block ou seja ele ocupa toda a linha e por isso o proximo elemento fica na linha debaixo.
+            ** Inline é definido usando a função display como segue no exemplo acima. Fica inline enquanto  texto não ocupa toda a linha. Qdo ocupa ele pula para a linha seguinte.-->
+
+		<span class="borda">
+			inline 1 
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+			lorem ipsum dolorem sit amet dolom
+		</span>
+		<span class="borda">inline 2</span>
+
+		<!--
+			<div class="borda">Bloco 1</div>
+			<div class="borda">Bloco 2</div>
+		-->
+
+	</body>
+
+</html>

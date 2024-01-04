@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Posicionamentos (static, relative, absolute e fixed)</title>
+        <!--Static é a posição padrão-->
+
+        <style type="text/css">
+            body{
+                background: #007fc7;
+            }
+
+            #container{
+                background: #fff;
+                width: 800px;
+                margin: 10px auto;
+                padding: 10px;
+                position: relative;
+            }
+
+            h1{
+                
+            }
+            
+            p{
+                width: 300px;
+                
+            }
+
+            .fixed{
+                border: 1px solid red;
+                background: #f2f2f2;
+                position: fixed;
+                bottom: 0px;
+                right: 0px;
+                margin: 0px;
+            }
+
+            .absolute{
+                border: 1px solid red;
+                background: #f2f2f2;
+                position: absolute;
+                top: 80px;
+                right: 20px;
+
+            }
+
+            .relative{
+                border: 1px solid red;
+                position: relative; 
+                /*usando o position relative é possivel definir onde ficar. Top, right, bottom e left*/
+                top: 0px;
+                left: 80px;
+            }
+
+            
+        </style>
+
+    </head>
+    <body>
+
+        <div id="container">
+            <h1>Posicionamentos</h1> 
+
+            <p>P1 Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy textLorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy text</p>
+            
+            <p class="relative">P2 Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy textLorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy text</p>
+            
+            <p class="absolute">P3 Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy textLorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy text</p>
+
+            <p class="fixed">P4 Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy textLorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy text</p>
+
+            <p>P5 Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy textLorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy text</p>
+
+            <p>P6 Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy textLorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy text</p>
+
+            <p>P7 Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy textLorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy text</p>
+
+            <p>P8 Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy textLorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy text</p>
+
+            <p>P9 Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy textLorem Ipsum has been the industry's standard dummy text Lorem Ipsum has been the industry's standard dummy text</p>
+
+
+        </div>
+    </body>
+</html>
